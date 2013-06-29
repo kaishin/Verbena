@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface Verbena : NSObject
+@interface KSVerbenaRenderer : NSObject
 
 + (UIImage *)renderImageWithSize:(CGSize)size andDrawingBlock:(void (^)(void))block;
 

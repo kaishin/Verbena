@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		9D2F380D177F0D6F009B11C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2F380C177F0D6F009B11C4 /* UIKit.framework */; };
 		9DADCCBA177EF9FA00811203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DADCCB9177EF9FA00811203 /* Foundation.framework */; };
-		9DADCCBF177EF9FA00811203 /* Verbena.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DADCCBE177EF9FA00811203 /* Verbena.h */; };
-		9DADCCC1177EF9FA00811203 /* Verbena.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DADCCC0177EF9FA00811203 /* Verbena.m */; };
+		9DADCCBF177EF9FA00811203 /* KSVerbenaRenderer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DADCCBE177EF9FA00811203 /* KSVerbenaRenderer.h */; };
+		9DADCCC1177EF9FA00811203 /* KSVerbenaRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DADCCC0177EF9FA00811203 /* KSVerbenaRenderer.m */; };
 		9DADCCC8177EF9FA00811203 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DADCCC7177EF9FA00811203 /* XCTest.framework */; };
 		9DADCCC9177EF9FA00811203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DADCCB9177EF9FA00811203 /* Foundation.framework */; };
 		9DADCCCB177EF9FA00811203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DADCCCA177EF9FA00811203 /* UIKit.framework */; };
@@ -36,7 +36,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9DADCCBF177EF9FA00811203 /* Verbena.h in CopyFiles */,
+				9DADCCBF177EF9FA00811203 /* KSVerbenaRenderer.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,8 +47,8 @@
 		9DADCCB6177EF9FA00811203 /* libVerbena.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVerbena.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DADCCB9177EF9FA00811203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9DADCCBD177EF9FA00811203 /* Verbena-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Verbena-Prefix.pch"; sourceTree = "<group>"; };
-		9DADCCBE177EF9FA00811203 /* Verbena.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Verbena.h; sourceTree = "<group>"; };
-		9DADCCC0177EF9FA00811203 /* Verbena.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Verbena.m; sourceTree = "<group>"; };
+		9DADCCBE177EF9FA00811203 /* KSVerbenaRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSVerbenaRenderer.h; sourceTree = "<group>"; };
+		9DADCCC0177EF9FA00811203 /* KSVerbenaRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSVerbenaRenderer.m; sourceTree = "<group>"; };
 		9DADCCC6177EF9FA00811203 /* VerbenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DADCCC7177EF9FA00811203 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9DADCCCA177EF9FA00811203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,8 +114,8 @@
 		9DADCCBB177EF9FA00811203 /* Verbena */ = {
 			isa = PBXGroup;
 			children = (
-				9DADCCBE177EF9FA00811203 /* Verbena.h */,
-				9DADCCC0177EF9FA00811203 /* Verbena.m */,
+				9DADCCBE177EF9FA00811203 /* KSVerbenaRenderer.h */,
+				9DADCCC0177EF9FA00811203 /* KSVerbenaRenderer.m */,
 				9DADCCBC177EF9FA00811203 /* Supporting Files */,
 			);
 			path = Verbena;
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DADCCC1177EF9FA00811203 /* Verbena.m in Sources */,
+				9DADCCC1177EF9FA00811203 /* KSVerbenaRenderer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

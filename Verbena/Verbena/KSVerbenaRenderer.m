@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 kaishin. All rights reserved.
 //
 
-#import "Verbena.h"
+#import "KSVerbenaRenderer.h"
 
-@implementation Verbena
+@implementation KSVerbenaRenderer
 
 + (UIImage *)renderImageWithSize:(CGSize)size andDrawingBlock:(void (^)(void))block;
 {

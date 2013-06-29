@@ -21,7 +21,7 @@
     UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(100, 50, 100, 100)];
     testView.backgroundColor = [UIColor grayColor];
 
-    UIImage *backgroundImage = [Verbena renderImageWithSize:CGSizeMake(100, 100) andDrawingBlock:^{
+    UIImage *backgroundImage = [KSVerbenaRenderer renderImageWithSize:CGSizeMake(100, 100) andDrawingBlock:^{
         UIBezierPath *rectangle = [UIBezierPath bezierPathWithRect: CGRectMake(0, 0, 200, 200)];
         [[UIColor redColor] setFill];
         [rectangle fill];
