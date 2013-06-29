@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "Verbena"
   s.version      = "0.0.2"
-  s.summary      = "A collection of Core Graphics helper methods"
+  s.summary      = "A collection of Core Graphics helper methods."
   s.homepage     = "https://github.com/kaishin/Verbena"
   s.screenshots  = "http://monosnap.com/image/UQUwZRjllBsl30ngep6X1MAZj.png"
   s.license      = 'BSD'
