@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/kaishin/Verbena.git", :tag => "0.0.2" }
   s.platform     = :ios, '6.1'
   s.source_files = 'Verbena/Verbena/'
+  s.frameworks = 'Foundation', 'UIKit'
   s.requires_arc = true
 end
