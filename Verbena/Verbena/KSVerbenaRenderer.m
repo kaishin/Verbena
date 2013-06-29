@@ -20,4 +20,14 @@
     return renderedImage;
 }
 
++ (UIImage *)renderTransparentImageWithSize:(CGSize)size andDrawingBlock:(void (^)(void))block;
+{
+    UIGraphicsBeginImageContextWithOptions(size, YES, 0.0);
+    block();
+    UIImage *renderedImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return renderedImage;
+}
+
 @end

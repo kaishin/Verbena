@@ -12,5 +12,6 @@
 @interface KSVerbenaRenderer : NSObject
 
 + (UIImage *)renderImageWithSize:(CGSize)size andDrawingBlock:(void (^)(void))block;
++ (UIImage *)renderTransparentImageWithSize:(CGSize)size andDrawingBlock:(void (^)(void))block;
 
 @end
