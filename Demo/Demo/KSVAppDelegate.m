@@ -18,7 +18,7 @@
     self.window.rootViewController = rootViewController;
 
     UIImage *backgroundImage = [KSVerbenaRenderer renderImageWithSize:CGSizeMake(200, 204) transparency:YES andDrawingBlock:^{
-        // Custom drawinf code (generated with PaintCode)
+        // Custom drawing code (generated with PaintCode)
         CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
         CGContextRef context = UIGraphicsGetCurrentContext();
 
