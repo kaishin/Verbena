@@ -10,12 +10,24 @@
 
 @implementation KSVerbenaRenderer
 
-+ (UIImage *)renderImageWithSize:(CGSize)size transparency:(BOOL)isTransparent andDrawingBlock:(void (^)(void))block;
++ (UIImage *)renderImageWithSize:(CGSize)size transparency:(BOOL)isTransparent drawingBlock:(void (^)(void))drawingBlock;
 {
-    UIGraphicsBeginImageContextWithOptions(size, !isTransparent, 0.0);
-    block();
-    UIImage *renderedImage = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
+	UIImage *renderedImage = nil;
+    if ([NSThread isMainThread]) {
+        UIGraphicsBeginImageContextWithOptions(size, !isTransparent, 0.0);
+	    drawingBlock();
+	    renderedImage = UIGraphicsGetImageFromCurrentImageContext();
+	    UIGraphicsEndImageContext();
+    } else {
+        __block UIImage *blockRenderedImage;
+        dispatch_sync(dispatch_get_main_queue(), ^{
+            UIGraphicsBeginImageContextWithOptions(size, !isTransparent, 0.0);
+            drawingBlock();
+            blockRenderedImage = UIGraphicsGetImageFromCurrentImageContext();
+            UIGraphicsEndImageContext();
+        });
+        renderedImage = blockRenderedImage;
+    }
 
     return renderedImage;
 }
