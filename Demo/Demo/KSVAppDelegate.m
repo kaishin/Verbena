@@ -13,12 +13,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     UIViewController *rootViewController = [[UIViewController alloc] init];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = rootViewController;
 
-    UIImage *backgroundImage = [KSVerbenaRenderer renderImageWithSize:CGSizeMake(200, 204) andDrawingBlock:^{
+    UIImage *backgroundImage = [KSVerbenaRenderer renderImageWithSize:CGSizeMake(200, 204) transparency:YES andDrawingBlock:^{
         // Custom drawinf code (generated with PaintCode)
         CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
         CGContextRef context = UIGraphicsGetCurrentContext();
