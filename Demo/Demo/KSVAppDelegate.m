@@ -17,7 +17,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = rootViewController;
 
-    UIImage *backgroundImage = [KSVerbenaRenderer renderImageWithSize:CGSizeMake(200, 204) transparency:YES andDrawingBlock:^{
+    UIImage *backgroundImage = [KSVerbenaRenderer renderImageWithSize:CGSizeMake(200, 204) transparency:YES drawingBlock:^{
         // Custom drawing code (generated with PaintCode)
         CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
         CGContextRef context = UIGraphicsGetCurrentContext();
