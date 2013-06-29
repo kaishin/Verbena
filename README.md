@@ -32,7 +32,7 @@ pod install
 ```
 Demo:
 
-![Demo](http://monosnap.com/image/UQUwZRjllBsl30ngep6X1MAZj.png)
+![Demo](https://raw.github.com/kaishin/Verbena/master/screenshot.png)
 
 ## Roadmap
 
