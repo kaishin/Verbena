@@ -14,7 +14,7 @@ UIGraphicsEndImageContext();
 Then Verbena is for you:
 
 ```objective-c
-UIImage *backgroundImage = [KSVerbenaRenderer renderImageWithSize:CGSizeMake(200, 204) transparency:YES andDrawingBlock:^{
+UIImage *backgroundImage = [KVRenderer renderImageWithSize:CGSizeMake(200, 204) transparency:YES andDrawingBlock:^{
     // Custom Core Graphics drawing code
 }];
 ```

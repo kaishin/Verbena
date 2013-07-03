@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.screenshots  = "https://raw.github.com/kaishin/Verbena/master/screenshot.png"
   s.license      = 'BSD'
   s.author       = { "Reda Lemeden" => "reda@thoughtbot.com" }
-  s.source       = { :git => "https://github.com/kaishin/Verbena.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/kaishin/Verbena.git", :tag => "v0.1.0" }
   s.platform     = :ios, '6.1'
   s.source_files = 'Verbena/Verbena/'
   s.frameworks = 'Foundation', 'UIKit'
