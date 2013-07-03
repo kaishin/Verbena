@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "KSVerbenaRenderer.h"
+#import "KVRenderer.h"
 
 @interface KSVAppDelegate : UIResponder <UIApplicationDelegate>
 
