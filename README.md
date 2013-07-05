@@ -1,5 +1,5 @@
 # Verbena
-Core Graphics helper methods.
+UIKit and Core Graphics helper methods.
 
 ## How to use
 If you find yourself often writing this:
