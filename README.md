@@ -34,8 +34,9 @@ Demo:
 
 ![Demo](https://raw.github.com/kaishin/Verbena/master/screenshot.png)
 
-## Roadmap
+## Contribution & Roadmap
 
+- Write tests
 - Add helper methods for generating basic shapes
 - Add helper methods for generating gradients, borders and shadows
 
