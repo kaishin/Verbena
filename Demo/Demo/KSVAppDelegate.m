@@ -64,6 +64,8 @@
         CGGradientRelease(gradient);
         CGColorSpaceRelease(colorSpace);
     }];
+
+    UIImage *colorImage = [KVRenderer renderImageWithColor:[UIColor greenColor]];
     
     UIImageView *imageView = [[UIImageView alloc] initWithImage:backgroundImage];
     CGRect windowRect = self.window.frame;

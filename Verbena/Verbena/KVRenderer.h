@@ -13,4 +13,6 @@
 
 + (UIImage *)renderImageWithSize:(CGSize)size transparency:(BOOL)isTransparent drawingBlock:(void (^)(void))drawingBlock;
 
++ (UIImage *)renderImageWithColor:(UIColor *)color;
+
 @end
