@@ -34,4 +34,14 @@
     return renderedImage;
 }
 
++ (UIImage *)renderImageWithColor:(UIColor *)color
+{
+    return [self renderImageWithSize:CGSizeMake(1, 1) transparency:YES drawingBlock:^{
+        CGContextRef context = UIGraphicsGetCurrentContext();
+        CGContextSetFillColorWithColor(context, [color CGColor]);
+        CGRect rect = CGRectMake(0, 0, 1, 1);
+        CGContextFillRect(context, rect);
+    }];
+}
+
 @end
