@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: beta-xcode6.3
+
+env: export LANG=en_US.UTF-8
+
+script: bin/test
+
+notifications:
+  email: false

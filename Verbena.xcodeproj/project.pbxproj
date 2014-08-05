@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00175BCE1B23BE1900EB3106 /* Verbena.h in Headers */ = {isa = PBXBuildFile; fileRef = 00175BCD1B23BE1900EB3106 /* Verbena.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00175BD41B23BE1A00EB3106 /* Verbena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175BC81B23BE1900EB3106 /* Verbena.framework */; };
+		00175BEE1B23BF0D00EB3106 /* VerbenaMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 00175BED1B23BF0D00EB3106 /* VerbenaMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00175BF41B23BF0D00EB3106 /* Verbena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175BE91B23BF0D00EB3106 /* Verbena.framework */; };
+		00175BFB1B23BF0D00EB3106 /* NSImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */; };
+		00175C051B23C13600EB3106 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; };
+		00175C061B23C13600EB3106 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; };
+		00175C0A1B23C1A400EB3106 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C091B23C1A400EB3106 /* UIImage.swift */; };
+		00175C0B1B23C1A400EB3106 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C091B23C1A400EB3106 /* UIImage.swift */; };
+		00175C0E1B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
+		00175C0F1B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
+		00175C101B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
+		00175C111B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
+		00175C131B23C1F200EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C121B23C1F200EB3106 /* QuartzCore.framework */; };
+		00175C151B23C1F900EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C141B23C1F900EB3106 /* QuartzCore.framework */; };
+		00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */; };
+		00175C1C1B23C3EE00EB3106 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00175C1D1B23C3F700EB3106 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00C55AF51B23C6C500540255 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AF41B23C6C500540255 /* UIBezierPath.swift */; };
+		00C55AF61B23C6C500540255 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AF41B23C6C500540255 /* UIBezierPath.swift */; };
+		00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
+		00C55AFE1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
+		00C55B051B248FC000540255 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55B031B248F5C00540255 /* Helpers.swift */; };
+		00C55B091B2491EC00540255 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C55B071B2491EC00540255 /* Nimble.framework */; };
+		00C55B0A1B2491EC00540255 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C55B081B2491EC00540255 /* Quick.framework */; };
+		00C55B0B1B24926000540255 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00C55B071B2491EC00540255 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		00C55B0C1B24926600540255 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00C55B081B2491EC00540255 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00175BD51B23BE1A00EB3106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00175BBF1B23BE1900EB3106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00175BC71B23BE1900EB3106;
+			remoteInfo = Verbena;
+		};
+		00175BF51B23BF0D00EB3106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00175BBF1B23BE1900EB3106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00175BE81B23BF0D00EB3106;
+			remoteInfo = VerbenaMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		00175C1B1B23C3E200EB3106 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00175C1D1B23C3F700EB3106 /* Quick.framework in CopyFiles */,
+				00175C1C1B23C3EE00EB3106 /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175C1E1B23C43300EB3106 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				00C55B0C1B24926600540255 /* Quick.framework in CopyFiles */,
+				00C55B0B1B24926000540255 /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00175BC81B23BE1900EB3106 /* Verbena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Verbena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00175BCC1B23BE1900EB3106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00175BCD1B23BE1900EB3106 /* Verbena.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Verbena.h; sourceTree = "<group>"; };
+		00175BD31B23BE1A00EB3106 /* VerbenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00175BD91B23BE1A00EB3106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00175BE91B23BF0D00EB3106 /* Verbena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Verbena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00175BEC1B23BF0D00EB3106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00175BED1B23BF0D00EB3106 /* VerbenaMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerbenaMac.h; sourceTree = "<group>"; };
+		00175BF31B23BF0D00EB3106 /* VerbenaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbenaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00175BF91B23BF0D00EB3106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensionSpec.swift; sourceTree = "<group>"; };
+		00175C031B23C13600EB3106 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		00175C041B23C13600EB3106 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
+		00175C091B23C1A400EB3106 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		00175C0D1B23C1D700EB3106 /* Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
+		00175C121B23C1F200EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		00175C141B23C1F900EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionSpec.swift; sourceTree = "<group>"; };
+		0080C2EF1B249DBB00BFB058 /* VerbenaMac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VerbenaMac.playground; sourceTree = "<group>"; };
+		0080C2F01B24A23000BFB058 /* Verbena.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Verbena.playground; sourceTree = "<group>"; };
+		00C55AF41B23C6C500540255 /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		00C55AFC1B23DCF600540255 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		00C55B031B248F5C00540255 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		00C55B071B2491EC00540255 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = SOURCE_ROOT; };
+		00C55B081B2491EC00540255 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00175BC41B23BE1900EB3106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175C131B23C1F200EB3106 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BD01B23BE1A00EB3106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175BD41B23BE1A00EB3106 /* Verbena.framework in Frameworks */,
+				00175C051B23C13600EB3106 /* Nimble.framework in Frameworks */,
+				00175C061B23C13600EB3106 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BE51B23BF0D00EB3106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175C151B23C1F900EB3106 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BF01B23BF0D00EB3106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175BF41B23BF0D00EB3106 /* Verbena.framework in Frameworks */,
+				00C55B091B2491EC00540255 /* Nimble.framework in Frameworks */,
+				00C55B0A1B2491EC00540255 /* Quick.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00175BBE1B23BE1900EB3106 = {
+			isa = PBXGroup;
+			children = (
+				0080C2F01B24A23000BFB058 /* Verbena.playground */,
+				0080C2EF1B249DBB00BFB058 /* VerbenaMac.playground */,
+				00175C0C1B23C1B700EB3106 /* Shared */,
+				00175BCA1B23BE1900EB3106 /* Verbena */,
+				00175BD71B23BE1A00EB3106 /* VerbenaTests */,
+				00175BEA1B23BF0D00EB3106 /* VerbenaMac */,
+				00175BF71B23BF0D00EB3106 /* VerbenaMacTests */,
+				00175BC91B23BE1900EB3106 /* Products */,
+				00175C161B23C20600EB3106 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00175BC91B23BE1900EB3106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00175BC81B23BE1900EB3106 /* Verbena.framework */,
+				00175BD31B23BE1A00EB3106 /* VerbenaTests.xctest */,
+				00175BE91B23BF0D00EB3106 /* Verbena.framework */,
+				00175BF31B23BF0D00EB3106 /* VerbenaMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00175BCA1B23BE1900EB3106 /* Verbena */ = {
+			isa = PBXGroup;
+			children = (
+				00175C081B23C14B00EB3106 /* Extensions */,
+				00175C071B23C14500EB3106 /* Classes */,
+				00175BCB1B23BE1900EB3106 /* Supporting Files */,
+			);
+			path = Verbena;
+			sourceTree = "<group>";
+		};
+		00175BCB1B23BE1900EB3106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00175BCD1B23BE1900EB3106 /* Verbena.h */,
+				00175BCC1B23BE1900EB3106 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00175BD71B23BE1A00EB3106 /* VerbenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */,
+				00C55B031B248F5C00540255 /* Helpers.swift */,
+				00175BD81B23BE1A00EB3106 /* Supporting Files */,
+				00175C021B23C0DB00EB3106 /* Frameworks */,
+			);
+			path = VerbenaTests;
+			sourceTree = "<group>";
+		};
+		00175BD81B23BE1A00EB3106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00175BD91B23BE1A00EB3106 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00175BEA1B23BF0D00EB3106 /* VerbenaMac */ = {
+			isa = PBXGroup;
+			children = (
+				00C55AFB1B23D94200540255 /* Classes */,
+				00C55AFA1B23D92C00540255 /* Extensions */,
+				00175BEB1B23BF0D00EB3106 /* Supporting Files */,
+			);
+			path = VerbenaMac;
+			sourceTree = "<group>";
+		};
+		00175BEB1B23BF0D00EB3106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00175BED1B23BF0D00EB3106 /* VerbenaMac.h */,
+				00175BEC1B23BF0D00EB3106 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00175BF71B23BF0D00EB3106 /* VerbenaMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */,
+				00175BF81B23BF0D00EB3106 /* Supporting Files */,
+				00C55B061B2491D100540255 /* Frameworks */,
+			);
+			path = VerbenaMacTests;
+			sourceTree = "<group>";
+		};
+		00175BF81B23BF0D00EB3106 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00175BF91B23BF0D00EB3106 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00175C021B23C0DB00EB3106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00175C031B23C13600EB3106 /* Nimble.framework */,
+				00175C041B23C13600EB3106 /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00175C071B23C14500EB3106 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00175C081B23C14B00EB3106 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				00175C091B23C1A400EB3106 /* UIImage.swift */,
+				00C55AF41B23C6C500540255 /* UIBezierPath.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		00175C0C1B23C1B700EB3106 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				00175C0D1B23C1D700EB3106 /* Aliases.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		00175C161B23C20600EB3106 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00175C141B23C1F900EB3106 /* QuartzCore.framework */,
+				00175C121B23C1F200EB3106 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00C55AFA1B23D92C00540255 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				00C55AFC1B23DCF600540255 /* NSImage.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		00C55AFB1B23D94200540255 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		00C55B061B2491D100540255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C55B071B2491EC00540255 /* Nimble.framework */,
+				00C55B081B2491EC00540255 /* Quick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00175BC51B23BE1900EB3106 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175BCE1B23BE1900EB3106 /* Verbena.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BE61B23BF0D00EB3106 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175BEE1B23BF0D00EB3106 /* VerbenaMac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00175BC71B23BE1900EB3106 /* Verbena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00175BDE1B23BE1A00EB3106 /* Build configuration list for PBXNativeTarget "Verbena" */;
+			buildPhases = (
+				00175BC31B23BE1900EB3106 /* Sources */,
+				00175BC41B23BE1900EB3106 /* Frameworks */,
+				00175BC51B23BE1900EB3106 /* Headers */,
+				00175BC61B23BE1900EB3106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verbena;
+			productName = Verbena;
+			productReference = 00175BC81B23BE1900EB3106 /* Verbena.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		00175BD21B23BE1A00EB3106 /* VerbenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00175BE11B23BE1A00EB3106 /* Build configuration list for PBXNativeTarget "VerbenaTests" */;
+			buildPhases = (
+				00175BCF1B23BE1A00EB3106 /* Sources */,
+				00175BD01B23BE1A00EB3106 /* Frameworks */,
+				00175BD11B23BE1A00EB3106 /* Resources */,
+				00175C1B1B23C3E200EB3106 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00175BD61B23BE1A00EB3106 /* PBXTargetDependency */,
+			);
+			name = VerbenaTests;
+			productName = VerbenaTests;
+			productReference = 00175BD31B23BE1A00EB3106 /* VerbenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00175BE81B23BF0D00EB3106 /* VerbenaMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00175BFC1B23BF0D00EB3106 /* Build configuration list for PBXNativeTarget "VerbenaMac" */;
+			buildPhases = (
+				00175BE41B23BF0D00EB3106 /* Sources */,
+				00175BE51B23BF0D00EB3106 /* Frameworks */,
+				00175BE61B23BF0D00EB3106 /* Headers */,
+				00175BE71B23BF0D00EB3106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerbenaMac;
+			productName = VerbenaMac;
+			productReference = 00175BE91B23BF0D00EB3106 /* Verbena.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		00175BF21B23BF0D00EB3106 /* VerbenaMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00175BFF1B23BF0D00EB3106 /* Build configuration list for PBXNativeTarget "VerbenaMacTests" */;
+			buildPhases = (
+				00175BEF1B23BF0D00EB3106 /* Sources */,
+				00175BF01B23BF0D00EB3106 /* Frameworks */,
+				00175BF11B23BF0D00EB3106 /* Resources */,
+				00175C1E1B23C43300EB3106 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00175BF61B23BF0D00EB3106 /* PBXTargetDependency */,
+			);
+			name = VerbenaMacTests;
+			productName = VerbenaMacTests;
+			productReference = 00175BF31B23BF0D00EB3106 /* VerbenaMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00175BBF1B23BE1900EB3106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kaishin & Co";
+				TargetAttributes = {
+					00175BC71B23BE1900EB3106 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					00175BD21B23BE1A00EB3106 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					00175BE81B23BF0D00EB3106 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					00175BF21B23BF0D00EB3106 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 00175BC21B23BE1900EB3106 /* Build configuration list for PBXProject "Verbena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00175BBE1B23BE1900EB3106;
+			productRefGroup = 00175BC91B23BE1900EB3106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00175BC71B23BE1900EB3106 /* Verbena */,
+				00175BD21B23BE1A00EB3106 /* VerbenaTests */,
+				00175BE81B23BF0D00EB3106 /* VerbenaMac */,
+				00175BF21B23BF0D00EB3106 /* VerbenaMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00175BC61B23BE1900EB3106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BD11B23BE1A00EB3106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BE71B23BF0D00EB3106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BF11B23BF0D00EB3106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00175BC31B23BE1900EB3106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C55AF51B23C6C500540255 /* UIBezierPath.swift in Sources */,
+				00175C0E1B23C1D700EB3106 /* Aliases.swift in Sources */,
+				00175C0A1B23C1A400EB3106 /* UIImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BCF1B23BE1A00EB3106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175C0B1B23C1A400EB3106 /* UIImage.swift in Sources */,
+				00C55B051B248FC000540255 /* Helpers.swift in Sources */,
+				00C55AF61B23C6C500540255 /* UIBezierPath.swift in Sources */,
+				00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */,
+				00175C0F1B23C1D700EB3106 /* Aliases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BE41B23BF0D00EB3106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */,
+				00175C101B23C1D700EB3106 /* Aliases.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00175BEF1B23BF0D00EB3106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00175C111B23C1D700EB3106 /* Aliases.swift in Sources */,
+				00C55AFE1B23DCF600540255 /* NSImage.swift in Sources */,
+				00175BFB1B23BF0D00EB3106 /* NSImageExtensionSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00175BD61B23BE1A00EB3106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00175BC71B23BE1900EB3106 /* Verbena */;
+			targetProxy = 00175BD51B23BE1A00EB3106 /* PBXContainerItemProxy */;
+		};
+		00175BF61B23BF0D00EB3106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00175BE81B23BF0D00EB3106 /* VerbenaMac */;
+			targetProxy = 00175BF51B23BF0D00EB3106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00175BDC1B23BE1A00EB3106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		00175BDD1B23BE1A00EB3106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		00175BDF1B23BE1A00EB3106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Verbena/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00175BE01B23BE1A00EB3106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Verbena/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		00175BE21B23BE1A00EB3106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerbenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		00175BE31B23BE1A00EB3106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = VerbenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		00175BFD1B23BF0D00EB3106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerbenaMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Verbena;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00175BFE1B23BF0D00EB3106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = VerbenaMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = Verbena;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		00175C001B23BF0D00EB3106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerbenaMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		00175C011B23BF0D00EB3106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = VerbenaMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00175BC21B23BE1900EB3106 /* Build configuration list for PBXProject "Verbena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00175BDC1B23BE1A00EB3106 /* Debug */,
+				00175BDD1B23BE1A00EB3106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00175BDE1B23BE1A00EB3106 /* Build configuration list for PBXNativeTarget "Verbena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00175BDF1B23BE1A00EB3106 /* Debug */,
+				00175BE01B23BE1A00EB3106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00175BE11B23BE1A00EB3106 /* Build configuration list for PBXNativeTarget "VerbenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00175BE21B23BE1A00EB3106 /* Debug */,
+				00175BE31B23BE1A00EB3106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00175BFC1B23BF0D00EB3106 /* Build configuration list for PBXNativeTarget "VerbenaMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00175BFD1B23BF0D00EB3106 /* Debug */,
+				00175BFE1B23BF0D00EB3106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00175BFF1B23BF0D00EB3106 /* Build configuration list for PBXNativeTarget "VerbenaMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00175C001B23BF0D00EB3106 /* Debug */,
+				00175C011B23BF0D00EB3106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00175BBF1B23BE1900EB3106 /* Project object */;
+}

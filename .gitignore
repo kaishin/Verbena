@@ -1,7 +1,7 @@
-# Mac OS X Finder
+# OS X Finder
 .DS_Store
 
-# XCode per-user config
+# Xcode per-user config
 *.mode1
 *.mode1v3
 *.mode2v3
@@ -26,4 +26,10 @@ build/
 
 # Cocoapods
 Pods
-Podfile.lock
+
+# Carthage
+Carthage/
+
+# AppCode specific files
+.idea/
+*.iml
