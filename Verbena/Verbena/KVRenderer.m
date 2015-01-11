@@ -10,22 +10,31 @@
 
 @implementation KVRenderer
 
-+ (UIImage *)renderImageWithSize:(CGSize)size transparency:(BOOL)isTransparent drawingBlock:(void (^)(void))drawingBlock
+#pragma mark - Private Helper
+
++ (UIImage *)renderedImageWithDrawingBlock:(DrawingBlock)drawingBlock size:(CGSize)size isTransparent:(BOOL)isTransparent
+{
+    UIImage *renderedImage = nil;
+    
+    UIGraphicsBeginImageContextWithOptions(size, !isTransparent, 0.0);
+    drawingBlock();
+    renderedImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+
+    return renderedImage;
+}
+
+#pragma mark - Public Render
+
++ (UIImage *)renderImageWithSize:(CGSize)size transparency:(BOOL)isTransparent drawingBlock:(DrawingBlock)drawingBlock
 {
 	UIImage *renderedImage = nil;
     if ([NSThread isMainThread]) {
-        UIGraphicsBeginImageContextWithOptions(size, !isTransparent, 0.0);
-	    drawingBlock();
-	    renderedImage = UIGraphicsGetImageFromCurrentImageContext();
-	    UIGraphicsEndImageContext();
+        renderedImage = [KVRenderer renderImageWithSize:size transparency:isTransparent drawingBlock:drawingBlock];;
     } else {
         __block UIImage *blockRenderedImage;
-
         dispatch_sync(dispatch_get_main_queue(), ^{
-            UIGraphicsBeginImageContextWithOptions(size, !isTransparent, 0.0);
-            drawingBlock();
-            blockRenderedImage = UIGraphicsGetImageFromCurrentImageContext();
-            UIGraphicsEndImageContext();
+            blockRenderedImage = [KVRenderer renderImageWithSize:size transparency:isTransparent drawingBlock:drawingBlock];
         });
 
         renderedImage = blockRenderedImage;
