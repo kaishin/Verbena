@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+jazzy -o ./docs -c -a "Reda Lemeden" -u "https://redalemeden.com" -g "https://github.com/kaishin/Verbena"
+
