@@ -82,8 +82,6 @@
 				005F1F411B28002100A905EF /* AppDelegate.swift */,
 				005F1F431B28002100A905EF /* ViewController.swift */,
 				005F1F451B28002100A905EF /* Main.storyboard */,
-				005F1F481B28002100A905EF /* Images.xcassets */,
-				005F1F4A1B28002100A905EF /* LaunchScreen.xib */,
 				005F1F3F1B28002100A905EF /* Supporting Files */,
 			);
 			path = Demo;
@@ -92,6 +90,8 @@
 		005F1F3F1B28002100A905EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				005F1F481B28002100A905EF /* Images.xcassets */,
+				005F1F4A1B28002100A905EF /* LaunchScreen.xib */,
 				00664A9D1B280267006744CE /* Verbena.framework */,
 				005F1F401B28002100A905EF /* Info.plist */,
 			);
@@ -103,7 +103,6 @@
 			children = (
 				005F1F691B2800C900A905EF /* AppDelegate.swift */,
 				005F1F6B1B2800C900A905EF /* ViewController.swift */,
-				005F1F6D1B2800C900A905EF /* Images.xcassets */,
 				005F1F6F1B2800C900A905EF /* Main.storyboard */,
 				005F1F671B2800C900A905EF /* Supporting Files */,
 			);
@@ -113,6 +112,7 @@
 		005F1F671B2800C900A905EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				005F1F6D1B2800C900A905EF /* Images.xcassets */,
 				00664A9B1B28024B006744CE /* Verbena.framework */,
 				005F1F681B2800C900A905EF /* Info.plist */,
 			);

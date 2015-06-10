@@ -92,7 +92,6 @@
 		00175C121B23C1F200EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00175C141B23C1F900EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionSpec.swift; sourceTree = "<group>"; };
-		0080C2EF1B249DBB00BFB058 /* VerbenaMac.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = VerbenaMac.playground; sourceTree = "<group>"; };
 		00C55AF41B23C6C500540255 /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
 		00C55AFC1B23DCF600540255 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		00C55B031B248F5C00540255 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
@@ -143,7 +142,6 @@
 		00175BBE1B23BE1900EB3106 = {
 			isa = PBXGroup;
 			children = (
-				0080C2EF1B249DBB00BFB058 /* VerbenaMac.playground */,
 				00175C0C1B23C1B700EB3106 /* Shared */,
 				00175BCA1B23BE1900EB3106 /* Verbena */,
 				00175BD71B23BE1A00EB3106 /* VerbenaTests */,
