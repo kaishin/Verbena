@@ -1,6 +1,7 @@
 import Quick
 import Nimble
 import AppKit.NSImage
+import Verbena
 
 class NSImageExtensionSpec: QuickSpec {
   override func spec() {

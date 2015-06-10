@@ -15,20 +15,15 @@
 		00175C051B23C13600EB3106 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; };
 		00175C061B23C13600EB3106 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; };
 		00175C0A1B23C1A400EB3106 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C091B23C1A400EB3106 /* UIImage.swift */; };
-		00175C0B1B23C1A400EB3106 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C091B23C1A400EB3106 /* UIImage.swift */; };
 		00175C0E1B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
-		00175C0F1B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
 		00175C101B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
-		00175C111B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
 		00175C131B23C1F200EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C121B23C1F200EB3106 /* QuartzCore.framework */; };
 		00175C151B23C1F900EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C141B23C1F900EB3106 /* QuartzCore.framework */; };
 		00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */; };
 		00175C1C1B23C3EE00EB3106 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00175C1D1B23C3F700EB3106 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00C55AF51B23C6C500540255 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AF41B23C6C500540255 /* UIBezierPath.swift */; };
-		00C55AF61B23C6C500540255 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AF41B23C6C500540255 /* UIBezierPath.swift */; };
 		00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
-		00C55AFE1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
 		00C55B051B248FC000540255 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55B031B248F5C00540255 /* Helpers.swift */; };
 		00C55B091B2491EC00540255 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C55B071B2491EC00540255 /* Nimble.framework */; };
 		00C55B0A1B2491EC00540255 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C55B081B2491EC00540255 /* Quick.framework */; };
@@ -498,11 +493,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00175C0B1B23C1A400EB3106 /* UIImage.swift in Sources */,
 				00C55B051B248FC000540255 /* Helpers.swift in Sources */,
-				00C55AF61B23C6C500540255 /* UIBezierPath.swift in Sources */,
 				00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */,
-				00175C0F1B23C1D700EB3106 /* Aliases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,8 +511,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00175C111B23C1D700EB3106 /* Aliases.swift in Sources */,
-				00C55AFE1B23DCF600540255 /* NSImage.swift in Sources */,
 				00175BFB1B23BF0D00EB3106 /* NSImageExtensionSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
