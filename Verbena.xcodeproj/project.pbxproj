@@ -15,16 +15,11 @@
 		00175C051B23C13600EB3106 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; };
 		00175C061B23C13600EB3106 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; };
 		00175C0A1B23C1A400EB3106 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C091B23C1A400EB3106 /* UIImage.swift */; };
-		00175C0E1B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
-		00175C101B23C1D700EB3106 /* Aliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C0D1B23C1D700EB3106 /* Aliases.swift */; };
 		00175C131B23C1F200EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C121B23C1F200EB3106 /* QuartzCore.framework */; };
 		00175C151B23C1F900EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C141B23C1F900EB3106 /* QuartzCore.framework */; };
 		00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */; };
 		00175C1C1B23C3EE00EB3106 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00175C1D1B23C3F700EB3106 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00664AA01B28A691006744CE /* CGContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00664A9F1B28A691006744CE /* CGContext.swift */; };
-		00664AA11B28A691006744CE /* CGContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00664A9F1B28A691006744CE /* CGContext.swift */; };
-		00C55AF51B23C6C500540255 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AF41B23C6C500540255 /* UIBezierPath.swift */; };
 		00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
 		00C55B051B248FC000540255 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55B031B248F5C00540255 /* Helpers.swift */; };
 		00C55B091B2491EC00540255 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C55B071B2491EC00540255 /* Nimble.framework */; };
@@ -90,12 +85,9 @@
 		00175C031B23C13600EB3106 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
 		00175C041B23C13600EB3106 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
 		00175C091B23C1A400EB3106 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		00175C0D1B23C1D700EB3106 /* Aliases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aliases.swift; sourceTree = "<group>"; };
 		00175C121B23C1F200EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00175C141B23C1F900EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionSpec.swift; sourceTree = "<group>"; };
-		00664A9F1B28A691006744CE /* CGContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGContext.swift; sourceTree = "<group>"; };
-		00C55AF41B23C6C500540255 /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
 		00C55AFC1B23DCF600540255 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		00C55B031B248F5C00540255 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		00C55B071B2491EC00540255 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = SOURCE_ROOT; };
@@ -145,7 +137,6 @@
 		00175BBE1B23BE1900EB3106 = {
 			isa = PBXGroup;
 			children = (
-				00175C0C1B23C1B700EB3106 /* Shared */,
 				00175BCA1B23BE1900EB3106 /* Verbena */,
 				00175BD71B23BE1A00EB3106 /* VerbenaTests */,
 				00175BEA1B23BF0D00EB3106 /* VerbenaMac */,
@@ -170,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				00175C081B23C14B00EB3106 /* Extensions */,
-				00175C071B23C14500EB3106 /* Classes */,
 				00175BCB1B23BE1900EB3106 /* Supporting Files */,
 			);
 			path = Verbena;
@@ -207,7 +197,6 @@
 		00175BEA1B23BF0D00EB3106 /* VerbenaMac */ = {
 			isa = PBXGroup;
 			children = (
-				00C55AFB1B23D94200540255 /* Classes */,
 				00C55AFA1B23D92C00540255 /* Extensions */,
 				00175BEB1B23BF0D00EB3106 /* Supporting Files */,
 			);
@@ -250,29 +239,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		00175C071B23C14500EB3106 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		00175C081B23C14B00EB3106 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				00175C091B23C1A400EB3106 /* UIImage.swift */,
-				00C55AF41B23C6C500540255 /* UIBezierPath.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		00175C0C1B23C1B700EB3106 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				00175C0D1B23C1D700EB3106 /* Aliases.swift */,
-				00664A9F1B28A691006744CE /* CGContext.swift */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		00175C161B23C20600EB3106 /* Frameworks */ = {
@@ -290,13 +262,6 @@
 				00C55AFC1B23DCF600540255 /* NSImage.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		00C55AFB1B23D94200540255 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		00C55B061B2491D100540255 /* Frameworks */ = {
@@ -483,9 +448,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C55AF51B23C6C500540255 /* UIBezierPath.swift in Sources */,
-				00664AA01B28A691006744CE /* CGContext.swift in Sources */,
-				00175C0E1B23C1D700EB3106 /* Aliases.swift in Sources */,
 				00175C0A1B23C1A400EB3106 /* UIImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,9 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00664AA11B28A691006744CE /* CGContext.swift in Sources */,
 				00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */,
-				00175C101B23C1D700EB3106 /* Aliases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
