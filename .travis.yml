@@ -1,9 +1,29 @@
 language: objective-c
 osx_image: beta-xcode6.3
 
-env: export LANG=en_US.UTF-8
+env:
+  global:
+  - LC_CTYPE=en_US.UTF-8
+  - LANG=en_US.UTF-8
+  matrix:
+    - DESTINATION="OS=8.3,name=iPhone 6" SCHEME="Verbena" SDK=iphonesimulator8.3 POD_LINT="NO"
+    - DESTINATION="arch=x86_64" SCHEME="VerbenaMac" SDK=macosx10.10 POD_LINT="NO"
 
-script: bin/test
+before_install:
+  - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - brew install carthage
+  - carthage bootstrap --verbose
+
+script:
+  - set -o pipefail
+  - xcodebuild -project Verbena.xcodeproj -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION"
+    -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty -c
+  - xcodebuild -project Verbena.xcodeproj -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION"
+    -configuration Release ONLY_ACTIVE_ARCH=NO test | xcpretty -c
+  - if [ $POD_LINT == "YES" ]; then
+      pod lib lint --quick;
+    fi
 
 notifications:
   email: false

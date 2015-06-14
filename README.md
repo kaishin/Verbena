@@ -1,6 +1,6 @@
 <img src="https://raw.github.com/kaishin/Verbena/master/logo.png" width="100" alt="logo" />
 
-# Verbena [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+# Verbena [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![CocoaPods](https://img.shields.io/cocoapods/v/Verbena.svg)](https://cocoapods.org/pods/Verbena)[![Travis](https://img.shields.io/travis/kaishin/Verbena.svg)](https://travis-ci.org/kaishin/Verbena)
 
 A micro-framework that simplifies the task if turning drawing code into `UIImage`/`NSImage` instances.
 
