@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/kaishin/Developer/Verbena/Demo/Demo.xcodeproj">
+      location = "group:Demo/Demo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Verbena.xcodeproj">
