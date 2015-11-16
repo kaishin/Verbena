@@ -10,7 +10,7 @@ class NSImageExtensionSpec: QuickSpec {
 
       beforeEach {
         image = NSImage.render(CGSize(width: 100, height: 100)) { size in
-          var ovalPath = NSBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
+          let ovalPath = NSBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
           NSColor.blackColor().setFill()
           ovalPath.fill()
         }
