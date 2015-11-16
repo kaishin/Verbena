@@ -21,4 +21,14 @@ extension NSImage {
     image.unlockFocus()
     return image
   }
+
+  /// Renders an `NSImage` instance from a `NSView`.
+  ///
+  /// :param: view The view that will be snapshot.
+  ///
+  /// :returns: A newly rendered snapshot of the view.
+  public class func imageWithView(view: NSView) -> NSImage {
+    let image = NSImage(data: view.dataWithPDFInsideRect(view.bounds)) ?? NSImage(size: view.bounds.size)
+    return image
+  }
 }

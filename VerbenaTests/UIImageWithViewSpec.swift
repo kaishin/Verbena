@@ -2,17 +2,15 @@ import UIKit.UIImage
 import Verbena
 import XCTest
 
-class NSImageTests: XCTestCase {
+class UIImageWithViewTests: XCTestCase {
   var image: UIImage!
 
   override func setUp() {
     super.setUp()
 
-    image = UIImage.render(CGSize(width: 100, height: 100)) { size in
-      let ovalPath = UIBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
-      UIColor.blackColor().setFill()
-      ovalPath.fill()
-    }
+    let view = UIView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+    view.backgroundColor = UIColor.redColor()
+    image = UIImage.imageWithView(view)
   }
 
   func testImageIsDrawnInContext() {

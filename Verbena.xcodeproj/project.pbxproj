@@ -11,13 +11,15 @@
 		00175BD41B23BE1A00EB3106 /* Verbena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175BC81B23BE1900EB3106 /* Verbena.framework */; };
 		00175BEE1B23BF0D00EB3106 /* VerbenaMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 00175BED1B23BF0D00EB3106 /* VerbenaMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00175BF41B23BF0D00EB3106 /* Verbena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175BE91B23BF0D00EB3106 /* Verbena.framework */; };
-		00175BFB1B23BF0D00EB3106 /* NSImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */; };
+		00175BFB1B23BF0D00EB3106 /* NSImageRenderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175BFA1B23BF0D00EB3106 /* NSImageRenderSpec.swift */; };
 		00175C0A1B23C1A400EB3106 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C091B23C1A400EB3106 /* UIImage.swift */; };
 		00175C131B23C1F200EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C121B23C1F200EB3106 /* QuartzCore.framework */; };
 		00175C151B23C1F900EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C141B23C1F900EB3106 /* QuartzCore.framework */; };
-		00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */; };
+		00175C181B23C25800EB3106 /* UIImageRenderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */; };
 		00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
 		00C55B051B248FC000540255 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55B031B248F5C00540255 /* Helpers.swift */; };
+		00C7BCE61BFA9B6900753006 /* UIImageWithViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7BCE51BFA9B6900753006 /* UIImageWithViewSpec.swift */; };
+		00C7BCE81BFAA0A900753006 /* NSImageWithViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7BCE71BFAA0A900753006 /* NSImageWithViewSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,13 +71,15 @@
 		00175BED1B23BF0D00EB3106 /* VerbenaMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerbenaMac.h; sourceTree = "<group>"; };
 		00175BF31B23BF0D00EB3106 /* VerbenaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbenaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00175BF91B23BF0D00EB3106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensionSpec.swift; sourceTree = "<group>"; };
+		00175BFA1B23BF0D00EB3106 /* NSImageRenderSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageRenderSpec.swift; sourceTree = "<group>"; };
 		00175C091B23C1A400EB3106 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		00175C121B23C1F200EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00175C141B23C1F900EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionSpec.swift; sourceTree = "<group>"; };
+		00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageRenderSpec.swift; sourceTree = "<group>"; };
 		00C55AFC1B23DCF600540255 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		00C55B031B248F5C00540255 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		00C7BCE51BFA9B6900753006 /* UIImageWithViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageWithViewSpec.swift; sourceTree = "<group>"; };
+		00C7BCE71BFAA0A900753006 /* NSImageWithViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageWithViewSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +162,8 @@
 		00175BD71B23BE1A00EB3106 /* VerbenaTests */ = {
 			isa = PBXGroup;
 			children = (
-				00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */,
+				00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */,
+				00C7BCE51BFA9B6900753006 /* UIImageWithViewSpec.swift */,
 				00C55B031B248F5C00540255 /* Helpers.swift */,
 				00175BD81B23BE1A00EB3106 /* Supporting Files */,
 			);
@@ -194,7 +199,8 @@
 		00175BF71B23BF0D00EB3106 /* VerbenaMacTests */ = {
 			isa = PBXGroup;
 			children = (
-				00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */,
+				00175BFA1B23BF0D00EB3106 /* NSImageRenderSpec.swift */,
+				00C7BCE71BFAA0A900753006 /* NSImageWithViewSpec.swift */,
 				00175BF81B23BF0D00EB3106 /* Supporting Files */,
 			);
 			path = VerbenaMacTests;
@@ -417,8 +423,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C7BCE61BFA9B6900753006 /* UIImageWithViewSpec.swift in Sources */,
 				00C55B051B248FC000540255 /* Helpers.swift in Sources */,
-				00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */,
+				00175C181B23C25800EB3106 /* UIImageRenderSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +441,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00175BFB1B23BF0D00EB3106 /* NSImageExtensionSpec.swift in Sources */,
+				00C7BCE81BFAA0A900753006 /* NSImageWithViewSpec.swift in Sources */,
+				00175BFB1B23BF0D00EB3106 /* NSImageRenderSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
