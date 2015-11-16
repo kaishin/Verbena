@@ -12,20 +12,12 @@
 		00175BEE1B23BF0D00EB3106 /* VerbenaMac.h in Headers */ = {isa = PBXBuildFile; fileRef = 00175BED1B23BF0D00EB3106 /* VerbenaMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00175BF41B23BF0D00EB3106 /* Verbena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175BE91B23BF0D00EB3106 /* Verbena.framework */; };
 		00175BFB1B23BF0D00EB3106 /* NSImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */; };
-		00175C051B23C13600EB3106 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; };
-		00175C061B23C13600EB3106 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; };
 		00175C0A1B23C1A400EB3106 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C091B23C1A400EB3106 /* UIImage.swift */; };
 		00175C131B23C1F200EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C121B23C1F200EB3106 /* QuartzCore.framework */; };
 		00175C151B23C1F900EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C141B23C1F900EB3106 /* QuartzCore.framework */; };
 		00175C181B23C25800EB3106 /* UIImageExtensionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */; };
-		00175C1C1B23C3EE00EB3106 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C031B23C13600EB3106 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00175C1D1B23C3F700EB3106 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00175C041B23C13600EB3106 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
 		00C55B051B248FC000540255 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55B031B248F5C00540255 /* Helpers.swift */; };
-		00C55B091B2491EC00540255 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C55B071B2491EC00540255 /* Nimble.framework */; };
-		00C55B0A1B2491EC00540255 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C55B081B2491EC00540255 /* Quick.framework */; };
-		00C55B0B1B24926000540255 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00C55B071B2491EC00540255 /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		00C55B0C1B24926600540255 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 00C55B081B2491EC00540255 /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +44,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				00175C1D1B23C3F700EB3106 /* Quick.framework in CopyFiles */,
-				00175C1C1B23C3EE00EB3106 /* Nimble.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +53,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				00C55B0C1B24926600540255 /* Quick.framework in CopyFiles */,
-				00C55B0B1B24926000540255 /* Nimble.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,16 +70,12 @@
 		00175BF31B23BF0D00EB3106 /* VerbenaMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbenaMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00175BF91B23BF0D00EB3106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtensionSpec.swift; sourceTree = "<group>"; };
-		00175C031B23C13600EB3106 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = SOURCE_ROOT; };
-		00175C041B23C13600EB3106 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = SOURCE_ROOT; };
 		00175C091B23C1A400EB3106 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		00175C121B23C1F200EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00175C141B23C1F900EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensionSpec.swift; sourceTree = "<group>"; };
 		00C55AFC1B23DCF600540255 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		00C55B031B248F5C00540255 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		00C55B071B2491EC00540255 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/Mac/Nimble.framework; sourceTree = SOURCE_ROOT; };
-		00C55B081B2491EC00540255 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/Mac/Quick.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +92,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00175BD41B23BE1A00EB3106 /* Verbena.framework in Frameworks */,
-				00175C051B23C13600EB3106 /* Nimble.framework in Frameworks */,
-				00175C061B23C13600EB3106 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,8 +108,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				00175BF41B23BF0D00EB3106 /* Verbena.framework in Frameworks */,
-				00C55B091B2491EC00540255 /* Nimble.framework in Frameworks */,
-				00C55B0A1B2491EC00540255 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,7 +161,6 @@
 				00175C171B23C25800EB3106 /* UIImageExtensionSpec.swift */,
 				00C55B031B248F5C00540255 /* Helpers.swift */,
 				00175BD81B23BE1A00EB3106 /* Supporting Files */,
-				00175C021B23C0DB00EB3106 /* Frameworks */,
 			);
 			path = VerbenaTests;
 			sourceTree = "<group>";
@@ -217,7 +196,6 @@
 			children = (
 				00175BFA1B23BF0D00EB3106 /* NSImageExtensionSpec.swift */,
 				00175BF81B23BF0D00EB3106 /* Supporting Files */,
-				00C55B061B2491D100540255 /* Frameworks */,
 			);
 			path = VerbenaMacTests;
 			sourceTree = "<group>";
@@ -228,15 +206,6 @@
 				00175BF91B23BF0D00EB3106 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		00175C021B23C0DB00EB3106 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				00175C031B23C13600EB3106 /* Nimble.framework */,
-				00175C041B23C13600EB3106 /* Quick.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		00175C081B23C14B00EB3106 /* Extensions */ = {
@@ -262,15 +231,6 @@
 				00C55AFC1B23DCF600540255 /* NSImage.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		00C55B061B2491D100540255 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				00C55B071B2491EC00540255 /* Nimble.framework */,
-				00C55B081B2491EC00540255 /* Quick.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -624,10 +584,7 @@
 		00175BE21B23BE1A00EB3106 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -642,10 +599,7 @@
 		00175BE31B23BE1A00EB3106 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = VerbenaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.kaishin.$(PRODUCT_NAME:rfc1034identifier)";
@@ -708,11 +662,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -730,11 +680,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = VerbenaMacTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;

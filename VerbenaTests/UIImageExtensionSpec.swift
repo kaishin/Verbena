@@ -1,28 +1,25 @@
-import Quick
-import Nimble
 import UIKit.UIImage
 import Verbena
+import XCTest
 
-class UIImageExtensionSpec: QuickSpec {
-  override func spec() {
-    describe("UIImageExtension") {
-      var image: UIImage!
+class NSImageTests: XCTestCase {
+  var image: UIImage!
 
-      beforeEach {
-        image = UIImage.render(CGSize(width: 100, height: 100)) { size in
-          let ovalPath = UIBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
-          UIColor.blackColor().setFill()
-          ovalPath.fill()
-        }
-      }
+  override func setUp() {
+    super.setUp()
 
-      it("should return instance from drawing code") {
-        expect(image.size.width).to(equal(100))
-      }
-
-      it("should ignore alpha by default") {
-        expect(imageHasAlpha(image)).to(beFalse())
-      }
+    image = UIImage.render(CGSize(width: 100, height: 100)) { size in
+      let ovalPath = UIBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
+      UIColor.blackColor().setFill()
+      ovalPath.fill()
     }
+  }
+
+  func testImageIsDrawnInContext() {
+    XCTAssertEqual(image.size.width, 100)
+  }
+
+  func testImageIgnoresAlpha() {
+    XCTAssertFalse(imageHasAlpha(image))
   }
 }
