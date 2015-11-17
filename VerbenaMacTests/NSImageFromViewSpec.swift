@@ -2,7 +2,7 @@ import AppKit.NSImage
 import Verbena
 import XCTest
 
-class NSImageWithViewTests: XCTestCase {
+class NSImageFromViewTests: XCTestCase {
   var image: NSImage!
 
   override func setUp() {

@@ -19,7 +19,7 @@ extension UIImage {
   /// :param: view The view that will be snapshot.
   ///
   /// :returns: A newly rendered snapshot of the view.
-  public class func imageWithView(view: UIView) -> UIImage {
+  public class func imageFromView(view: UIView) -> UIImage {
     UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.opaque, 0.0)
     view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
     let image = UIGraphicsGetImageFromCurrentImageContext()

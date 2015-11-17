@@ -2,7 +2,7 @@
 
 # Verbena [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![CocoaPods](https://img.shields.io/cocoapods/v/Verbena.svg)](https://cocoapods.org/pods/Verbena) [![Travis](https://img.shields.io/travis/kaishin/Verbena.svg)](https://travis-ci.org/kaishin/Verbena)
 
-A micro-framework that simplifies the task if turning drawing code into `UIImage`/`NSImage` instances.
+A micro-framework that simplifies the task if turning drawing code or views into `UIImage`/`NSImage` instances.
 
 ### Installation
 #### [Carthage](https://github.com/Carthage/Carthage)
@@ -20,44 +20,24 @@ for up to date installation instructions.
 - You will also need to make sure you're opting into using frameworks: `use_frameworks!`
 - Then run `pod install` with CocoaPods 0.36 or newer.
 
-#### Git Submodules
-
-- Add this repo as a submodule, and add the project file to your workspace. You
-can then link against `Verbena.framework` for your application target.
-
 ### Usage
 
-After importing Verbena, you will have at your disposal a class method for both `UIImage` and `NSImage`:
-
-```swift
-render(size: CGSize, transparency: Bool = false, drawingBlockWithSize: CGSize -> Void)`
-```
-
-##### iOS
-
-```swift
+~~~swift
 import Verbena
 
+// Get a UIImage from drawing block
 let image = UIImage.render(CGSize(width: 100, height: 100)) { size in
   // Drawing code goes here. Example:
   // var ovalPath = UIBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
   // UIColor.blackColor().setFill()
   // ovalPath.fill()
 }
-```
 
-##### Mac
+// Get a UIImage from a UIView
+let image = UIImage.imageFromView(view)
+~~~
 
-```swift
-import Verbena
-
-let image = NSImage.render(CGSize(width: 100, height: 100)) { size in
-  // Drawing code goes here. Example:
-  // var ovalPath = NSBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
-  // NSColor.blackColor().setFill()
-  // ovalPath.fill()
-}
-```
+The same methods can also be used on OS X.
 
 ### License
 

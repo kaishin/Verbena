@@ -18,8 +18,8 @@
 		00175C181B23C25800EB3106 /* UIImageRenderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */; };
 		00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
 		00C55B051B248FC000540255 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55B031B248F5C00540255 /* Helpers.swift */; };
-		00C7BCE61BFA9B6900753006 /* UIImageWithViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7BCE51BFA9B6900753006 /* UIImageWithViewSpec.swift */; };
-		00C7BCE81BFAA0A900753006 /* NSImageWithViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7BCE71BFAA0A900753006 /* NSImageWithViewSpec.swift */; };
+		00C7BCE61BFA9B6900753006 /* UIImageFromViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7BCE51BFA9B6900753006 /* UIImageFromViewSpec.swift */; };
+		00C7BCE81BFAA0A900753006 /* NSImageFromViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7BCE71BFAA0A900753006 /* NSImageFromViewSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +78,8 @@
 		00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageRenderSpec.swift; sourceTree = "<group>"; };
 		00C55AFC1B23DCF600540255 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		00C55B031B248F5C00540255 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		00C7BCE51BFA9B6900753006 /* UIImageWithViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageWithViewSpec.swift; sourceTree = "<group>"; };
-		00C7BCE71BFAA0A900753006 /* NSImageWithViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageWithViewSpec.swift; sourceTree = "<group>"; };
+		00C7BCE51BFA9B6900753006 /* UIImageFromViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageFromViewSpec.swift; sourceTree = "<group>"; };
+		00C7BCE71BFAA0A900753006 /* NSImageFromViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImageFromViewSpec.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */,
-				00C7BCE51BFA9B6900753006 /* UIImageWithViewSpec.swift */,
+				00C7BCE51BFA9B6900753006 /* UIImageFromViewSpec.swift */,
 				00C55B031B248F5C00540255 /* Helpers.swift */,
 				00175BD81B23BE1A00EB3106 /* Supporting Files */,
 			);
@@ -200,7 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				00175BFA1B23BF0D00EB3106 /* NSImageRenderSpec.swift */,
-				00C7BCE71BFAA0A900753006 /* NSImageWithViewSpec.swift */,
+				00C7BCE71BFAA0A900753006 /* NSImageFromViewSpec.swift */,
 				00175BF81B23BF0D00EB3106 /* Supporting Files */,
 			);
 			path = VerbenaMacTests;
@@ -456,7 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C7BCE61BFA9B6900753006 /* UIImageWithViewSpec.swift in Sources */,
+				00C7BCE61BFA9B6900753006 /* UIImageFromViewSpec.swift in Sources */,
 				00C55B051B248FC000540255 /* Helpers.swift in Sources */,
 				00175C181B23C25800EB3106 /* UIImageRenderSpec.swift in Sources */,
 			);
@@ -474,7 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C7BCE81BFAA0A900753006 /* NSImageWithViewSpec.swift in Sources */,
+				00C7BCE81BFAA0A900753006 /* NSImageFromViewSpec.swift in Sources */,
 				00175BFB1B23BF0D00EB3106 /* NSImageRenderSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
