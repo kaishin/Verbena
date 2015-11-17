@@ -29,6 +29,7 @@ Pods
 
 # Carthage
 Carthage/
+Verbena.framework.zip
 
 # AppCode specific files
 .idea/
