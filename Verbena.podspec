@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "Verbena"
-  s.version = "1.1.0"
+  s.version = "1.1.1"
   s.summary = "Get UIImage/NSimage instances from Quartz drawing code, views, etc."
   s.homepage = "https://github.com/kaishin/Verbena"
   s.social_media_url = "http://twitter.com/kaishin"
