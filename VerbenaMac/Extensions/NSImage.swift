@@ -28,7 +28,17 @@ extension NSImage {
   ///
   /// :returns: A newly rendered snapshot of the view.
   public class func imageWithView(view: NSView) -> NSImage {
-    let image = NSImage(data: view.dataWithPDFInsideRect(view.bounds)) ?? NSImage(size: view.bounds.size)
+    guard let bitmap = view.bitmapImageRepForCachingDisplayInRect(view.bounds) else {
+      return NSImage(size: view.bounds.size)
+    }
+    
+    let size = view.bounds.size
+    bitmap.size = size
+    view.cacheDisplayInRect(view.bounds, toBitmapImageRep: bitmap)
+
+    let image = NSImage(size: size)
+    image.addRepresentation(bitmap)
+    
     return image
   }
 }
