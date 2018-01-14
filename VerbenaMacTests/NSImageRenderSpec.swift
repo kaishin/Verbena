@@ -9,8 +9,8 @@ class NSImageRenderTests: XCTestCase {
     super.setUp()
 
     image = NSImage.render(CGSize(width: 100, height: 100)) { size in
-      let ovalPath = NSBezierPath(ovalInRect: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
-      NSColor.blackColor().setFill()
+      let ovalPath = NSBezierPath(ovalIn: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
+      NSColor.black.setFill()
       ovalPath.fill()
     }
   }

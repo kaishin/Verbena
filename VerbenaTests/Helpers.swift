@@ -1,6 +1,6 @@
 import UIKit
 
-func imageHasAlpha(image: UIImage) -> Bool {
-  let alpha = CGImageGetAlphaInfo(image.CGImage)
-  return (alpha == .First || alpha == .Last || alpha == .PremultipliedFirst || alpha == .PremultipliedLast)
+func imageHasAlpha(_ image: UIImage) -> Bool {
+  let alpha = image.cgImage?.alphaInfo
+  return (alpha == .first || alpha == .last || alpha == .premultipliedFirst || alpha == .premultipliedLast)
 }

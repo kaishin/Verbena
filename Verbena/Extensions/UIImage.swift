@@ -8,10 +8,10 @@ extension UIImage {
   /// :param: drawingBlockWithSize A drawing block that takes a `CGSize` and returns `Void`.
   /// 
   /// :returns: A newly rendered image.
-  public class func render(size: CGSize, transparency: Bool = false, drawingBlockWithSize: CGSize -> Void) -> UIImage {
+  public class func render(_ size: CGSize, transparency: Bool = false, drawingBlockWithSize: (CGSize) -> Void) -> UIImage {
     UIGraphicsBeginImageContextWithOptions(size, !transparency, 0.0)
     drawingBlockWithSize(size)
-    return UIGraphicsGetImageFromCurrentImageContext()
+    return UIGraphicsGetImageFromCurrentImageContext()!
   }
 
   /// Renders a `UIImage` instance from a `UIView`.
@@ -19,11 +19,11 @@ extension UIImage {
   /// :param: view The view that will be snapshot.
   ///
   /// :returns: A newly rendered snapshot of the view.
-  public class func imageFromView(view: UIView) -> UIImage {
-    UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.opaque, 0.0)
-    view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+  public class func imageFromView(_ view: UIView) -> UIImage {
+    UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.isOpaque, 0.0)
+    view.layer.render(in: UIGraphicsGetCurrentContext()!)
     let image = UIGraphicsGetImageFromCurrentImageContext()
     UIGraphicsEndImageContext()
-    return image
+    return image!
   }
 }
