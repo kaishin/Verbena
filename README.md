@@ -1,10 +1,13 @@
 <img src="https://raw.github.com/kaishin/Verbena/master/logo.png" width="100" alt="logo" />
 
-# Verbena [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![CocoaPods](https://img.shields.io/cocoapods/v/Verbena.svg)](https://cocoapods.org/pods/Verbena) [![Travis](https://img.shields.io/travis/kaishin/Verbena.svg)](https://travis-ci.org/kaishin/Verbena)
+# Verbena
 
-A micro-framework that simplifies the task if turning drawing code or views into `UIImage`/`NSImage` instances.
+[![GitHub release](https://img.shields.io/github/release/kaishin/Verbena.svg)](https://github.com/kaishin/Verbena/releases/latest) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![CocoaPods](https://img.shields.io/cocoapods/v/Verbena.svg)](https://cocoapods.org/pods/Verbena) ![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg) ![platforms](https://img.shields.io/badge/platforms-iOS%20%7C%20macOS-lightgrey.svg)
+
+A micro-framework that simplifies the task of turning drawing code or views into `UIImage`/`NSImage` instances.
 
 ### Installation
+
 #### [Carthage](https://github.com/Carthage/Carthage)
 
 - Add the following to your Cartfile: `github "kaishin/Verbena"`
@@ -18,7 +21,7 @@ for up to date installation instructions.
 
 - Add the following to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html): `pod 'Verbena'`
 - You will also need to make sure you're opting into using frameworks: `use_frameworks!`
-- Then run `pod install` with CocoaPods 0.36 or newer.
+- Then run `pod install`.
 
 ### Usage
 
@@ -34,11 +37,11 @@ let image = UIImage.render(CGSize(width: 100, height: 100)) { size in
 }
 
 // Get a UIImage from a UIView
-let image = UIImage.imageFromView(view)
+let image = UIImage.image(from: view)
 ~~~
 
-The same methods can also be used on OS X.
+The same methods can also be used on OS X with `NSImage` instead.
 
 ### License
 
-Copyright 2013-2015 Reda Lemeden. BSD Licence. See LICENSE file for more info.
+Copyright 2013-2018 Reda Lemeden. BSD Licence. See LICENSE file for more info.
