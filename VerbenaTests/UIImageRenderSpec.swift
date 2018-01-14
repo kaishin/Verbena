@@ -8,7 +8,7 @@ class UIImageRenderTests: XCTestCase {
   override func setUp() {
     super.setUp()
 
-    image = UIImage.render(CGSize(width: 100, height: 100)) { size in
+    image = UIImage.render(CGSize(width: 100, height: 100), transparency: false) { size in
       let ovalPath = UIBezierPath(ovalIn: CGRect(origin: CGPoint(x: 0, y: 0), size: size))
       UIColor.black.setFill()
       ovalPath.fill()
@@ -19,7 +19,7 @@ class UIImageRenderTests: XCTestCase {
     XCTAssertEqual(image.size.width, 100)
   }
 
-  func testImageIgnoresAlpha() {
+  func testImageHasNoAlpha() {
     XCTAssertFalse(imageHasAlpha(image))
   }
 }

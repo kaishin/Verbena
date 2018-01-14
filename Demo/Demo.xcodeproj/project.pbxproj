@@ -28,7 +28,7 @@
 		005F1F461B28002100A905EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		005F1F481B28002100A905EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		005F1F4B1B28002100A905EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		005F1F651B2800C900A905EF /* DemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		005F1F651B2800C900A905EF /* VerbenaDemoMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbenaDemoMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		005F1F681B2800C900A905EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		005F1F691B2800C900A905EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		005F1F6B1B2800C900A905EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				005F1F3C1B28002100A905EF /* Demo.app */,
-				005F1F651B2800C900A905EF /* DemoMac.app */,
+				005F1F651B2800C900A905EF /* VerbenaDemoMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		005F1F3B1B28002100A905EF /* Demo */ = {
+		005F1F3B1B28002100A905EF /* VerbenaDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 005F1F5B1B28002200A905EF /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = 005F1F5B1B28002200A905EF /* Build configuration list for PBXNativeTarget "VerbenaDemo" */;
 			buildPhases = (
 				005F1F381B28002100A905EF /* Sources */,
 				005F1F391B28002100A905EF /* Frameworks */,
@@ -134,14 +134,14 @@
 			);
 			dependencies = (
 			);
-			name = Demo;
+			name = VerbenaDemo;
 			productName = "Verbena Demo";
 			productReference = 005F1F3C1B28002100A905EF /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		005F1F641B2800C900A905EF /* DemoMac */ = {
+		005F1F641B2800C900A905EF /* VerbenaDemoMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 005F1F7E1B2800CA00A905EF /* Build configuration list for PBXNativeTarget "DemoMac" */;
+			buildConfigurationList = 005F1F7E1B2800CA00A905EF /* Build configuration list for PBXNativeTarget "VerbenaDemoMac" */;
 			buildPhases = (
 				005F1F611B2800C900A905EF /* Sources */,
 				005F1F621B2800C900A905EF /* Frameworks */,
@@ -151,9 +151,9 @@
 			);
 			dependencies = (
 			);
-			name = DemoMac;
+			name = VerbenaDemoMac;
 			productName = DemoMac;
-			productReference = 005F1F651B2800C900A905EF /* DemoMac.app */;
+			productReference = 005F1F651B2800C900A905EF /* VerbenaDemoMac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -187,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				005F1F3B1B28002100A905EF /* Demo */,
-				005F1F641B2800C900A905EF /* DemoMac */,
+				005F1F3B1B28002100A905EF /* VerbenaDemo */,
+				005F1F641B2800C900A905EF /* VerbenaDemoMac */,
 			);
 		};
 /* End PBXProject section */
@@ -372,7 +372,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kaishin.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.kaishin.verbena.ios.demo;
 				PRODUCT_NAME = Demo;
 			};
 			name = Debug;
@@ -384,7 +384,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kaishin.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.kaishin.verbena.ios.demo;
 				PRODUCT_NAME = Demo;
 			};
 			name = Release;
@@ -404,7 +404,7 @@
 				INFOPLIST_FILE = DemoMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kaishin.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.kaishin.verbena.macos.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -420,7 +420,7 @@
 				INFOPLIST_FILE = DemoMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.kaishin.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.kaishin.verbena.macos.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 			};
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		005F1F5B1B28002200A905EF /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		005F1F5B1B28002200A905EF /* Build configuration list for PBXNativeTarget "VerbenaDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				005F1F5C1B28002200A905EF /* Debug */,
@@ -447,7 +447,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		005F1F7E1B2800CA00A905EF /* Build configuration list for PBXNativeTarget "DemoMac" */ = {
+		005F1F7E1B2800CA00A905EF /* Build configuration list for PBXNativeTarget "VerbenaDemoMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				005F1F7F1B2800CA00A905EF /* Debug */,
