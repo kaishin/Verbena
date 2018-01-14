@@ -27,18 +27,7 @@ extension NSImage {
   /// :param: view The view that will be snapshot.
   ///
   /// :returns: A newly rendered snapshot of the view.
-  public class func imageFromView(_ view: NSView) -> NSImage {
-    guard let bitmap = view.bitmapImageRepForCachingDisplay(in: view.bounds) else {
-      return NSImage(size: view.bounds.size)
-    }
-    
-    let size = view.bounds.size
-    bitmap.size = size
-    view.cacheDisplay(in: view.bounds, to: bitmap)
-
-    let image = NSImage(size: size)
-    image.addRepresentation(bitmap)
-    
-    return image
+  public class func image(from view: NSView) -> NSImage {
+    return view.snapshot()
   }
 }

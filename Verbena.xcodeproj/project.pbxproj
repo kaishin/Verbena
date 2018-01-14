@@ -16,6 +16,7 @@
 		00175C131B23C1F200EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C121B23C1F200EB3106 /* QuartzCore.framework */; };
 		00175C151B23C1F900EB3106 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00175C141B23C1F900EB3106 /* QuartzCore.framework */; };
 		00175C181B23C25800EB3106 /* UIImageRenderSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */; };
+		004547F4200BBA2A004E6CC2 /* NSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004547F3200BBA2A004E6CC2 /* NSView.swift */; };
 		00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55AFC1B23DCF600540255 /* NSImage.swift */; };
 		00C55B051B248FC000540255 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C55B031B248F5C00540255 /* Helpers.swift */; };
 		00C7BCE61BFA9B6900753006 /* UIImageFromViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7BCE51BFA9B6900753006 /* UIImageFromViewSpec.swift */; };
@@ -76,6 +77,7 @@
 		00175C121B23C1F200EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		00175C141B23C1F900EB3106 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		00175C171B23C25800EB3106 /* UIImageRenderSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageRenderSpec.swift; sourceTree = "<group>"; };
+		004547F3200BBA2A004E6CC2 /* NSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSView.swift; sourceTree = "<group>"; };
 		00C55AFC1B23DCF600540255 /* NSImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		00C55B031B248F5C00540255 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		00C7BCE51BFA9B6900753006 /* UIImageFromViewSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageFromViewSpec.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				00C55AFC1B23DCF600540255 /* NSImage.swift */,
+				004547F3200BBA2A004E6CC2 /* NSView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00C55AFD1B23DCF600540255 /* NSImage.swift in Sources */,
+				004547F4200BBA2A004E6CC2 /* NSView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

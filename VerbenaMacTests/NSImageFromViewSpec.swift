@@ -11,7 +11,7 @@ class NSImageFromViewTests: XCTestCase {
     let view = NSView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
     view.wantsLayer = true
     view.layer?.backgroundColor = NSColor.red.cgColor
-    image = NSImage.imageFromView(view)
+    image = NSImage.image(from: view)
   }
 
   func testImageIsDrawnInContext() {
