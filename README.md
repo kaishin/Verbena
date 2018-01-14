@@ -42,6 +42,13 @@ let image = UIImage.image(from: view)
 
 The same methods can also be used on OS X with `NSImage` instead.
 
+### Requirements
+
+- Swift 4.0+
+- Xcode 9
+- iOS 10+
+- macOS 10.10+
+
 ### License
 
 Copyright 2013-2018 Reda Lemeden. BSD Licence. See LICENSE file for more info.
