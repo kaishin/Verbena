@@ -14,7 +14,7 @@ extension NSImage {
 
     if !transparency {
       NSColor.white.setFill()
-      NSRectFill(NSRect(x: 0, y: 0, width: image.size.width, height: image.size.height))
+      NSRect(x: 0, y: 0, width: image.size.width, height: image.size.height).fill()
     }
 
     drawingBlockWithSize(size)
